@@ -11,39 +11,53 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="stylesheets/adminhome.css">
     <script src="form.js"></script>
 </head>
 
-<body>
+<body id="">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h2>Admin Panel</h2>
                 {{!-- <p> Send us your message and we will get back to you as soon as possible </p> --}}
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <a href="#">Bussiness</a>
+                        <a href="#">Marketing</a>
+                        <a href="#">Tech</a>
+                        <a href="#">Social</a>
+                    </div>
+                </div>
                 <form role="form" method="post" id="reused_form">
                     <div class="row">
                         <div class="col-sm-12 form-group">
                             <label for="name"> Quastion </label>
-                            <input type="text" class="form-control" id="firstname" placeholder="Quastion" name="Quastion" required maxlength="50">
+                            <input type="text" class="form-control" id="firstname" placeholder="Quastion"
+                                name="Quastion" required maxlength="50">
                         </div>
                         <div class="col-sm-6 form-group">
                             <label for="name">Option One</label>
-                            <input type="text" class="form-control" id="firstname" placeholder="Correct answer" name="Optionone" required maxlength="50">
+                            <input type="text" class="form-control" id="firstname" placeholder="Correct answer"
+                                name="Optionone" required maxlength="50">
                         </div>
                         <div class="col-sm-6 form-group">
                             <label for="name"> Option Two</label>
-                            <input type="text" class="form-control" id="lastname" placeholder="option" name="Optiontwo" required maxlength="50">
+                            <input type="text" class="form-control" id="lastname" placeholder="option" name="Optiontwo"
+                                required maxlength="50">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 form-group">
                             <label for="email">Option Three</label>
-                            <input type="text" class="form-control" id="email" placeholder="option" name="Optionthree" required maxlength="50">
+                            <input type="text" class="form-control" id="email" placeholder="option" name="Optionthree"
+                                required maxlength="50">
                         </div>
                         <div class="col-sm-6 form-group">
                             <label for="email">Option Four</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="option" name="Optionfour" required maxlength="50">
+                            <input type="tel" class="form-control" id="phone" placeholder="option" name="Optionfour"
+                                required maxlength="50">
                         </div>
                     </div>
                     {{!-- <div class="row">

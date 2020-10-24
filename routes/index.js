@@ -28,4 +28,8 @@ router.get("/userquestion", (req, res) => {
 //   res.render("user/signup");
 // });
 
+router.get("/userresult", (req, res) => {
+  res.render("userResult");
+});
+
 module.exports = router;

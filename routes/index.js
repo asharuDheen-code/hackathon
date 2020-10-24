@@ -20,6 +20,10 @@ router.get("/userhome", (req, res) => {
 router.get("/questionpageone", (req, res) => {
   res.render("qpageone");
 });
+
+router.get("/userquestion", (req, res) => {
+  res.render("userQuestion");
+});
 // router.get("/signup", (req, res) => {
 //   res.render("user/signup");
 // });

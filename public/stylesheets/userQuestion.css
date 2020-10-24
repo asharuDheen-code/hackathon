@@ -1,0 +1,16 @@
+.rows {
+    /* margin-left: 30%; */
+    width: 100%;
+    text-align: center;
+    height: auto;
+    line-height: 60px;
+    margin-top: 60px;
+}
+
+
+.choosequ {
+    line-height: 77px;
+    font-weight: bold;
+    color: #233d65;
+    text-decoration: underline;
+}

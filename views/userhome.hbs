@@ -45,7 +45,7 @@
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
 
-            <h1 class="logo mr-auto"><a href="index.html">eNno</a></h1>
+            <h1 class="logo mr-auto"><a href="index.html">Who am i !</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -53,8 +53,8 @@
                 <ul>
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Skills test</a></li>
+                    {{!-- <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#team">Team</a></li>
                     <li class="drop-down"><a href="">Drop Down</a>
                         <ul>
@@ -73,7 +73,7 @@
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li> --}}
 
                 </ul>
             </nav><!-- .nav-menu -->
@@ -89,12 +89,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1>Elegant and creative solutions</h1>
-                    <h2>We are team of talanted designers making websites with Bootstrap</h2>
+                    <h1>What is EasyClass?</h1>
+                    <h2>Easyclass is a platform that allows educators to create online classes whereby they can store
+                        the course materials online; manage assignments, quizzes and exams; monitor due dates; grade
+                        results and provide students with feedback all in one place.</h2>
                     <div class="d-flex">
                         <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video"
-                            data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
+                        {{!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video"
+                            data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -115,25 +117,31 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-computer"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
+                            <h4 class="title"><a href="">INTEGRATED GRADEBOOK</a></h4>
+                            <p class="description">Any assignment or quiz you post to your digital class will result in
+                                a column being added in the Gradebook. Your students' grades are automatically entered
+                                in the Gradebook when you grade on the relevant quiz or assignment section.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-image"></i></div>
-                            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat tarad limino ata</p>
+                            <h4 class="title"><a href="">FREE UNLIMITED FILE STORAGE</a></h4>
+                            <p class="description">Tired of bookmarking web pages or storing files and materials on
+                                multiple sources such as computers, memory sticks, etc? Think of MyFiles section as your
+                                own virtual Library that you can access anytime from anywhere and share the contents
+                                with anyone you want. MyFiles section on Easyclass allows you to store, organize, share
+                                and manage documents, all within your Easyclass account.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur</p>
+                            <h4 class="title"><a href="">SECURE CLOUD-BASED SAAS</a></h4>
+                            <p class="description">With no advertisements and a process for inviting and managing
+                                students in classrooms, Easyclass addresses the fundamental concerns of privacy and
+                                safety. The content created within the online classes can be viewed by the class members
+                                only!</p>
                         </div>
                     </div>
                 </div>
@@ -150,13 +158,14 @@
                         <img src="stylesheets/assets/img/about.png" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+                        <h3>How to Get Started Teaching Online</h3>
                         <p class="font-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                            Digital curricula can be easily given to students, which is more fun for them. When
+                            interacting with digital activities, students often don't perceive it as 'work.' Easyclass
+                            makes it possible to achieve higher student motivation and increased learning through online
+                            tools and class activities.
                         </p>
-                        <ul>
+                        {{!-- <ul>
                             <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
                                 consequat</li>
                             <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
@@ -164,48 +173,26 @@
                             <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
                                 consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
                             </li>
-                        </ul>
+                        </ul> --}}
+                        <h4>Set Goals</h4>
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
+                            The first thing you'll want to think about is what you're trying to achieve with this online
+                            course. Consider whether the entirety of the course will be on online teaching platforms, if
+                            it meant as a supplement to a course, or is meant as a prerequisite before joining a future
+                            course.
+                        </p>
+                        <h4>Create a Course Plan</h4>
+                        <p>
+                            Just like a face-to-face course, courses on online learning platforms need to have outlines
+                            or course plans for what you'll cover each week. If these are courses that you've previously
+                            offered live, you're one step ahead of the game. Your course plans will be your maps for
+                            what kinds of materials you will need to create for your lessons.
                         </p>
                     </div>
                 </div>
 
             </div>
         </section><!-- End About Section -->
-
-        <!-- ======= Counts Section ======= -->
-        <section id="counts" class="counts">
-            <div class="container">
-
-                <div class="row counters">
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">232</span>
-                        <p>Clients</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">521</span>
-                        <p>Projects</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">1,463</span>
-                        <p>Hours Of Support</p>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">15</span>
-                        <p>Hard Workers</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Counts Section -->
 
         <section id="services" class="services section-bg">
             <div class="container">
@@ -333,145 +320,8 @@
 
             </div>
         </section><!-- End Services Section -->
-
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-
-                <div class="section-title">
-                    <span>Portfolio</span>
-                    <h2>Portfolio</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="stylesheets/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <a href="stylesheets/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery"
-                                class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="details-link" title="More Details"><i
-                                    class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Portfolio Section -->
-
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        {{!-- <section id="testimonials" class="testimonials section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -568,10 +418,10 @@
                 </div>
 
             </div>
-        </section><!-- End Cta Section -->
+        </section><!-- End Cta Section --> --}}
 
         <!-- ======= Team Section ======= -->
-        <section id="team" class="team section-bg">
+        {{!-- <section id="team" class="team section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -583,7 +433,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="member">
-                            <img src="stylesheets/assets/img/team/team-1.jpg" alt="">
+                            <img src="stylesheets/assets/img/team/Asharu.jpg" alt="">
                             <h4>Walter White</h4>
                             <span>Chief Executive Officer</span>
                             <p>
@@ -638,7 +488,7 @@
                 </div>
 
             </div>
-        </section><!-- End Team Section -->
+        </section><!-- End Team Section --> --}}
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -650,7 +500,7 @@
                     <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
                 </div>
 
-                <div class="row">
+                <div class="row" style="justify-content: center;">
 
                     {{!-- <div class="col-lg-5 d-flex align-items-stretch">
                         <div class="info">
@@ -732,8 +582,8 @@
 
                 <div class="row  justify-content-center">
                     <div class="col-lg-6">
-                        <h3>eNno</h3>
-                        <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe
+                        <h3>Who am i !</h3>
+                        {{!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe
                             commodi placeat.</p>
                     </div>
                 </div>
@@ -745,7 +595,7 @@
                                 value="Subscribe">
                         </form>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="social-links">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
